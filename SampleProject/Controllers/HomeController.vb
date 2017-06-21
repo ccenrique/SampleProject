@@ -1,9 +1,11 @@
 ﻿Imports System.Web.Mvc
 
 Namespace Controllers
+    ' This was my first project in Git 
+
     Public Class HomeController
         Inherits Controller
-        ' carlos test
+
         ' GET: Home
         Function Index() As ActionResult
             Return View()
