@@ -58,7 +58,7 @@ Namespace Controllers
         Function Delete(ByVal id As Integer, ByVal collection As FormCollection) As ActionResult
             Try
                 ' TODO: Add delete logic here
-
+                '
                 Return RedirectToAction("Index")
             Catch
                 Return View()
